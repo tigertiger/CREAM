@@ -18,6 +18,13 @@ _This application will allow users to accurately convert US Dollars into any of 
 
 _To find out how your money stacks up in other countries, Gentle Reader, all you need do is input any amount in the "Amount USD" field, select your desired currency to convert to in the drop-down below, and click "Change Money." This app will do the dirty work for you [with a little help from [ExchangeRate-API](https://www.exchangerate-api.com/)]._
 
+#### Currentcies
+* UAE Dirham, United Arab Emirates
+* Afghan Afghani, Afghanistan
+* Bermudian Dollar, Bermuda
+* Bolivian Boliviano, Bolivia
+* Falkland Islands Pound, Falkland Islands
+
 ## Setup/Installation Requirements
 
 1. _Clone [this repository](https://github.com/tigertiger/cream) to an empty folder or to your desktop.  
