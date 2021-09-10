@@ -1,25 +1,27 @@
-<!DOCTYPE html>
 <html lang="en-US">
 <head>
-  <title>Currency Conversion</title>
+  <title>Currency Conversion App</title>
 </head>
 <body>
-  <h1>C.R.E.A.M.</h1>
-  <div>
-    <div><span class="showOriginal"></span>Dollars USD is</div>
-    <div class="showConversion"></div>
-    <div class="showErrors"></div>
-    <label for="yourCash">Amount USD to Convert</label>
-    <input id="yourCash" type="number"></input>
-    <select name="rate" id="rate">
-      <option value="AED">UAE Dirham</option>
-      <option value="AFN">Afghan Afghanis</option>
-      <option value="BMD">Bermudian Dollars</option>
-      <option value="BOB">Bolivian Boliviano</option>
-      <option value="FKP">Falkland Islands Pounds</option>
-      <option value="FBM">Fake Bad Money</option>
-    </select>
-    <button id="changeMoney">Change Money</button>
+  <div class="container">
+    <h1>C.R.E.A.M.</h1>
+    <div>
+      <!-- <div><span class="showOriginal"></span>Dollars USD is</div> -->
+      <div class="showConversion"></div>
+      <div class="showErrors"></div>
+      <label for="yourCash">Amount USD</label>
+      <input id="yourCash" type="number"></input><br />
+      <label for="rate">Convert to</label>
+      <select name="rate" id="rate">
+        <option value="AED">UAE Dirham</option>
+        <option value="AFN">Afghan Afghanis</option>
+        <option value="BMD">Bermudian Dollars</option>
+        <option value="BOB">Bolivian Boliviano</option>
+        <option value="FKP">Falkland Islands Pounds</option>
+        <option value="FBM">Fake Bad Money</option>
+      </select><br />
+      <button id="changeMoney">Change Money</button>
+    </div>
   </div>
 </body>
 </html>

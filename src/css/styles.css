@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+body {
+background-color: lightslategray;
+color: lightgrey;
+}
+
+.container {
+  padding: 3% 3%;
+  text-align:center;
+}
+
+h1 {
+  font-family: 'Special Elite', cursive;
+}

@@ -1,7 +1,7 @@
 import $ from 'jquery';
-// import 'bootstrap';
-// import 'bootstrap/dist/css/bootstrap.min.css';
-// import './css/styles.css';
+import 'bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './css/styles.css';
 import {BankService} from './js/convert.js';
 console.log("what is life?");
 function convert(dollas) {
@@ -23,7 +23,8 @@ function convert(dollas) {
     }
     else if (currentRate === "FKP") {
       rateArray.push(`${body.conversion_rates.FKP}`, "Falkland Islands Pounds");
-    } else {
+    } 
+    else {
       rateArray.push(NaN, "Your Requested Currency Doesn't Exist");
     }
     let converter = rateArray[0].toString();

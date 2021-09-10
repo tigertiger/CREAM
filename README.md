@@ -9,28 +9,33 @@
 
 * _JavaScript_
 * _webpack_
-* _you used in your project_
-* _here_
+* _HTML_
+* _CSS_
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+_This application will allow users to accurately convert US Dollars into any of the currencies listed in our current currencies [currentcies, if you will] list [see below]._  
+
+_To find out how your money stacks up in other countries, Gentle Reader, all you need do is input any amount in the "Amount USD" field, select your desired currency to convert to in the drop-down below, and click "Change Money." This app will do the dirty work for you [with a little help from [ExchangeRate-API](https://www.exchangerate-api.com/)]._
 
 ## Setup/Installation Requirements
 
-* _Clone [this repository](https://github.com/tigertiger/cream) to an empty folder or to your desktop.  
+1. _Clone [this repository](https://github.com/tigertiger/cream) to an empty folder or to your desktop.  
 Instructions for cloning can be found [here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository)._
-* _Open the cream folder in Visual Studio Code or your alternate code editor of choice.
+2. _Open the cream folder in Visual Studio Code or your alternate code editor of choice.
    Please note that these instructions were written with VS Code MacOS in mind. If you are using a different code editor/OS, the process may vary. You can download VS Code here: [VS Code Download](https://code.visualstudio.com/download)_
-* _In VS Code, use the Terminal dropdown to open a new Terminal_
-* _Run the command ```npm install``` to set up the environment_
-* _ADD INSTRUCTIONS FOR SETTING UP .ENV/API KEYS_
-* _and whatever else_
+3. _In VS Code, use the Terminal dropdown to open a new Terminal_
+4. _Run the command ```npm install``` to set up the environment_
+5. _Visit [https://www.exchangerate-api.com/](https://www.exchangerate-api.com/) & follow their instructions to get your free API Key_
+6. _In your terminal, use ```touch .env``` to create a new .env file to hold your API Key_
+7. _Next, run the command ```npm install dotenv-webpack@2.0.0 --save-dev``` to let webpack know what's going on_
+8. _Add the following to your .env file: ```API_KEY: YOUR-API-KEY-GOES-HERE```_
+9. _Run ```npm run start``` to build & access your live development environment_
+10. _Edit, play, test, convert currency, etc. to your heart's content_
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* _No known bugs at this time_
 
 ## License
 
