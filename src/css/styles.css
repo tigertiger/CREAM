@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&family=Syne+Mono&display=swap');
 
 body {
 background-color: lightslategray;
 color: lightgrey;
+font-family: 'Syne Mono', monospace;
 }
 
 .container {
@@ -11,9 +13,22 @@ color: lightgrey;
 }
 
 h1 {
+  margin: 2% 0 0 0;
   font-family: 'Special Elite', cursive;
+  text-shadow: 10px 10px 20px #ffffffab;
+}
+
+.interface {
+  padding:20px 10px;
+  margin: 20px auto 0px;
+  display: inline-block;
+  box-sizing: border-box;
 }
 
 #showOriginal {
   display:none;
+}
+
+#changeMoney {
+  margin: 2% 0 0 0;
 }

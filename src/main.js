@@ -30,7 +30,6 @@ function convert(dollas) {
     }
     let converter = rateArray[0].toString();
     let currency = rateArray[1].toString();
-    console.log(rateArray);
     $('.showConversion').html(`${(converter * dollas).toFixed(2) + " " + currency }`);
   }, function(error) {
     $('.showErrors').text(`There was an error processing your request: ${error}`);
