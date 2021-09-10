@@ -13,3 +13,7 @@ color: lightgrey;
 h1 {
   font-family: 'Special Elite', cursive;
 }
+
+#showOriginal {
+  display:none;
+}
