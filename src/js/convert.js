@@ -1,4 +1,9 @@
 export class BankService {
+  // constructor(dollas, rate){
+  //   this.dollas = dollas;
+  //   this.rate = rate;
+  // }
+
   static convertCash() {
     return new Promise(function(resolve, reject) {
       let request = new XMLHttpRequest();
@@ -14,4 +19,5 @@ export class BankService {
       request.send();
     });
   }
+
 }

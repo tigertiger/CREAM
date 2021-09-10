@@ -9,7 +9,9 @@ function convert(dollas) {
   let promise = BankService.convertCash(dollas);
   promise.then(function(response) {
     const body = JSON.parse(response);
-    $('.showConversion').text(`${body.conversion_rates.USD * dollas}`);
+    let converter = `${body.conversion_rates.AED}`;
+    console.log(converter);
+    $('.showConversion').html(`${converter * dollas}`);
   }, function(error) {
     $('.showErrors').text(`There was an error processing your request: ${error}`);
   });
