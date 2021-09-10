@@ -25,8 +25,9 @@ h1 {
   box-sizing: border-box;
 }
 
-#showOriginal {
+#showBlock {
   display:none;
+  padding: 3% 2% 1%;
 }
 
 #changeMoney {
