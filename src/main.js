@@ -23,6 +23,8 @@ function convert(dollas) {
     }
     else if (currentRate === "FKP") {
       rateArray.push(`${body.conversion_rates.FKP}`, "Falkland Islands Pounds");
+    } else {
+      rateArray.push(NaN, "Your Requested Currency Doesn't Exist");
     }
     let converter = rateArray[0].toString();
     let currency = rateArray[1].toString();
