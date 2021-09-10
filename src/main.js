@@ -28,7 +28,10 @@ function convert(dollas) {
     }
     else if (currentRate === "FKP") {
       rateArray.push(`${body.conversion_rates.FKP}`, "Falkland Islands Pounds");
-    } 
+    }  
+    else if (startCurr === "USD") {
+      rateArray.push(`${body.conversion_rates.USD}`, "United States Dollars");
+    }
     else {
       rateArray.push(NaN, "Your Requested Currency Doesn't Exist");
     }
@@ -59,14 +62,14 @@ function convert(dollas) {
     let startCurrency = currArray[1].toString();
     let newCurrency = rateArray[1].toString();
 
-    $('.showConversion').html(`${(converter * (dollas * convertible)).toFixed(2) + " " + newCurrency}`);
+    $('.showConversion').html(`${(converter * (dollas / convertible)).toFixed(2) + " " + newCurrency}`);
 
     $("#showOriginal").text(dollas + " " + startCurrency + " is");
 
   }, function(error) {
 
     $('.showErrors').text(`There was an error processing your request: ${error}`);
-    
+
   });
 }
 
