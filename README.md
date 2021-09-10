@@ -14,11 +14,12 @@
 
 ## Description
 
-_This application will allow users to accurately convert US Dollars into any of the currencies listed in our current currencies [currentcies, if you will] list [see below]._  
+_This application will allow users to accurately convert amounts of money between any of the currencies listed in our current currencies [currentcies, if you will] list [see below]._  
 
-_To find out how your money stacks up in other countries, Gentle Reader, all you need do is input any amount in the "Amount USD" field, select your desired currency to convert to in the drop-down below, and click "Change Money." This app will do the dirty work for you [with a little help from [ExchangeRate-API](https://www.exchangerate-api.com/)]._
+_To find out how your money stacks up in other countries, Gentle Reader, all you need do is input any amount in the "cash amount" field, select your home currency & your desired currency in the appropriate drop-downs, and click "Change Money." This app will do the dirty work for you [with a little help from [ExchangeRate-API](https://www.exchangerate-api.com/)]._
 
 #### Currentcies
+* US Dollars, United States of America
 * UAE Dirham, United Arab Emirates
 * Afghan Afghani, Afghanistan
 * Bermudian Dollar, Bermuda
