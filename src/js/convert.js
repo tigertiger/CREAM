@@ -1,4 +1,4 @@
-class BankService {
+export class BankService {
   static convertCash() {
     return new Promise(function(resolve, reject) {
       let request = new XMLHttpRequest();
