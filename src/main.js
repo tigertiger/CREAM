@@ -29,7 +29,7 @@ function convert(dollas) {
     else if (currentRate === "FKP") {
       rateArray.push(`${body.conversion_rates.FKP}`, "Falkland Islands Pounds");
     }  
-    else if (startCurr === "USD") {
+    else if (currentRate === "USD") {
       rateArray.push(`${body.conversion_rates.USD}`, "United States Dollars");
     }
     else {

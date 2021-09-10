@@ -43,7 +43,7 @@ Instructions for cloning can be found [here](https://docs.github.com/en/github/c
 
 ## Known Bugs
 
-* _Converting to USD is currently broken_
+* _No known bugs at this time_
 
 ## License
 
